@@ -11,11 +11,15 @@
         {
             margin: 8px 0;
         }
-        input
+        form > div > input
         {
             margin-left: 20px;
         }
-    </style>
+        form > div > select
+        {
+            margin-left: 20px;
+        }
+        </style>
     <title> Main </title>
 </head>
 <body>
@@ -75,8 +79,8 @@
                     </label>
                     </div>
                 <div>
-                    <select name="Sel" id="Sel">
-                        <option disabled selected>Любимый язык программирования</option>
+                    <div> Любимый язык программирования </div>
+                    <select name="Sel" id="Sel" multiple="multiple">
                         <option value="Pascal"> Pascal </option>
                         <option value="C"> C </option>
                         <option value="C++"> C++ </option>
