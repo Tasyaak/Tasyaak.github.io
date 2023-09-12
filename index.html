@@ -56,7 +56,6 @@
             </ol>
         </li>
         <li> <a href ="ftp://username:password@ftp.test.com:21/file.txt" title="Выдуманный файл выдуманного сайта"> 21) Ссылка на файл на сервере FTP с авторизацией </a> </li>
-        
         <li>
             Форма
             <form>
@@ -66,35 +65,30 @@
                 <div> <input type="date" name="Date"> </div>
                 <div>
                     <div> Пол </div>
-                    <input type="radio" name="Gender" id="Female">
-                        <label for="Female"> Женский </label>
-                    <input type="radio" name="Gender" id="Male">
-                        <label for="Male"> Мужской </label>
+                    <label>
+                        <input type="radio" name="Gender">
+                         Женский 
+                    </label>
+                    <label>
+                        <input type="radio" name="Gender">
+                        Мужской
+                    </label>
                     </div>
                 <div>
-                    <div> Любимый язык программирования </div>
-                    <div> <input type="checkbox" name="Proglang" id="Pascal">
-                        <label for="Pascal"> Pascal </label> </div>
-                    <div> <input type="checkbox" name="Proglang" id="C">
-                        <label for="C"> C </label> </div>
-                    <div> <input type="checkbox" name="Proglang" id="C++">
-                        <label for="C++"> C++ </label> </div>
-                    <div> <input type="checkbox" name="Proglang" id="JavaScript">
-                        <label for="JavaScript"> JavaScript </label> </div>
-                    <div> <input type="checkbox" name="Proglang" id="PHP">
-                        <label for="PHP"> PHP </label> </div>
-                    <div> <input type="checkbox" name="Proglang" id="Python">
-                        <label for="Python"> Python </label> </div>
-                    <div> <input type="checkbox" name="Proglang" id="Java">
-                        <label for="Java"> Java </label> </div>
-                    <div> <input type="checkbox" name="Proglang" id="Haskel">
-                        <label for="Haskel"> Haskel </label> </div>
-                    <div> <input type="checkbox" name="Proglang" id="Clojure">
-                        <label for="Clojure"> Clojure </label> </div>
-                    <div> <input type="checkbox" name="Proglang" id="Prolog">
-                        <label for="Prolog"> Prolog </label> </div>
-                    <div> <input type="checkbox" name="Prolog" id="Scala">
-                        <label for="Scala"> Scala </label> </div>
+                    <select name="Sel" id="Sel">
+                        <option disabled selected>Любимый язык программирования</option>
+                        <option value="Pascal"> Pascal </option>
+                        <option value="C"> C </option>
+                        <option value="C++"> C++ </option>
+                        <option value="JavaScript"> JavaScript </option>
+                        <option value="PHP"> PHP </option>
+                        <option value="Python"> Python </option>
+                        <option value="Java"> Java </option>
+                        <option value="Haskel"> Haskel </option>
+                        <option value="Clojure"> Clojure </option>
+                        <option value="Prolog"> Prolog </option>
+                        <option value="Scala"> Scala </option>
+                    </select>
                 </div>
                 <textarea name="Bio" placeholder="Биография" cols="40" rows="10"></textarea>
                 <div>
@@ -104,7 +98,6 @@
                 <div> <button type="submit"> Сохранить </button> </div>
             </form>
         </li>
-
         <li> <a href="#up" title="Наверх"> 6) Ссылка на фрагмент текущей страницы ↑ </a> </li>
     </ul>
 </body>
