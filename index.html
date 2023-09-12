@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <style>
-        li
+        ul > li
         {
             margin: 10px 0;
+        }
+        ul > li > ol > li
+        {
+            margin: 14px 0;
         }
         form > div
         {
@@ -71,7 +75,7 @@
                     <div> Пол </div>
                     <label>
                         <input type="radio" name="Gender">
-                         Женский 
+                        Женский 
                     </label>
                     <label>
                         <input type="radio" name="Gender">
@@ -80,7 +84,7 @@
                     </div>
                 <div>
                     <div> Любимый язык программирования </div>
-                    <select name="Sel" id="Sel" multiple="multiple">
+                    <select name="ProgLang" size="5" multiple>
                         <option value="Pascal"> Pascal </option>
                         <option value="C"> C </option>
                         <option value="C++"> C++ </option>
