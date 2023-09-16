@@ -1,0 +1,90 @@
+h1
+{
+    text-align: center;
+}
+#header, #footer
+{
+    width: 100%;
+    background-color: #ccc;
+    padding: 10px;
+    height: 120px;
+}
+.content
+{
+    max-width: 960px;
+    margin: 0 auto;
+}
+#header > div > img
+{
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+#header > div > div > div
+{
+    display: inline-block;
+    padding: 4px 10px;
+    background-color: #ddd;
+}
+.syte
+{
+    margin-top: 20px;
+}
+#nav
+{
+    padding: 0;
+}
+#nav > ul > li
+{
+    padding: 8px;
+    margin: 10px;
+    background-color: #e5e5e5;
+    list-style-type: none;
+    text-align: center;
+}
+#nav > ul > li > div
+{
+    margin: 10px 0;
+}
+#table
+{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+#table, #table td
+{
+    border: 1px #474747 solid
+}
+#table td
+{
+    padding: 11px;
+    text-align: center;
+}
+#table tr:nth-child(even)
+{
+    background-color: #c5c5c5
+}
+#table tr:nth-child(odd)
+{
+    background-color: #e6e6e6;
+}
+#table thead tr
+{
+    background-color: #dcdcdc! important;
+}
+form
+{
+    background-color: #f6f6f6;
+    width: 500px;
+    margin: 5px auto;
+}
+form > input
+{
+    margin: 5px 0;
+    width: 90%;
+}
+#footer > div > div
+{
+    margin-left: 130px;
+}
