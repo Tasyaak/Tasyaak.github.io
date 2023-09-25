@@ -1,3 +1,7 @@
+*
+{
+    box-sizing: border-box;
+}
 h1
 {
     text-align: center;
@@ -6,10 +10,6 @@ body
 {
     padding: 0;
     margin: 0;
-}
-*
-{
-    box-sizing: border-box;
 }
 #header, #footer
 {
@@ -54,7 +54,6 @@ body
     justify-content: flex-end;
     padding-right: 20px;
     background-color: #ccc;
-
 }
 .blok
 {
@@ -109,11 +108,16 @@ body
 {
     margin: 5px 0;
 }
+#footer
+{
+    background-color: #ccc;
+    height: 15vw;
+    max-height: 150px;
+}
 #footer > div > div
 {
-    margin-left: 130px;
+    margin-left: 10vw;
 }
-
 
 
 @media screen and (orientation: landscape)
