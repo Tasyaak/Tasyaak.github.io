@@ -1,0 +1,169 @@
+h1
+{
+    text-align: center;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+}
+*
+{
+    box-sizing: border-box;
+}
+#header, #footer
+{
+    width: 100%;
+}
+.content
+{
+    width: 100%;
+}
+.img
+{
+    background-color: #ccc;
+    padding: 10px;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+.img img
+{
+    height: 100%;
+}
+#nav
+{
+    margin-top: 10px;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+}
+#nav > div
+{
+    background-color: #ddd;
+    margin: 8px 0;
+    width: fit-content;
+    padding: 4px 2px;
+    margin-left: 10px;
+}
+.syte
+{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    background-color: #ccc;
+
+}
+.blok
+{
+    padding: 8px;
+    margin: 10px 0;
+    background-color: #e5e5e5;
+    text-align: center;
+}
+.blok > div
+{
+    margin: 10px 0;
+}
+.blok_table
+{
+    overflow-x: auto;
+}
+#table
+{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+#table, #table td
+{
+    border: 2px #474747 solid
+}
+#table td
+{
+    padding: 11px;
+    text-align: center;
+}
+#table thead tr
+{
+    background-color: #d5d5d5! important;
+}
+#table tr:nth-child(even)
+{
+    background-color: #c5c5c5
+}
+#table tr:nth-child(odd)
+{
+    background-color: #e6e6e6;
+}
+.blok > form
+{
+    background-color: #f6f6f6;
+    width: 100%;
+    max-width: 500px;
+    margin: 5px auto;
+    padding: 2px 0;
+}
+.blok > form > div
+{
+    margin: 5px 0;
+}
+#footer > div > div
+{
+    margin-left: 130px;
+}
+
+
+
+@media screen and (orientation: landscape)
+{
+    .content
+    {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    #header
+    {
+        background-color: #ccc;
+    }
+    #header .content
+    {
+        display: flex;
+    }
+    #nav > div
+    {
+        display: inline-block;
+        padding: 4px 10px;
+        background-color: #ddd;
+    }
+    .flex
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #nav
+    {
+        order: -1;
+        flex-direction: row;
+        margin-top: 0;
+    }
+    .syte
+    {
+        height: 100%;
+        justify-content: flex-start;
+        padding-left: 15px;
+        align-items: start;
+        padding-top: 20px;
+    }
+    .main
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .ssilki
+    {
+        order: -1;
+    }
+}
