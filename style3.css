@@ -35,8 +35,7 @@ body
 {
     margin-top: 10px;
     background-color: #ccc;
-    display: flex;
-    flex-direction: column;
+    padding: 1vw;
 }
 #nav > div
 {
@@ -152,6 +151,7 @@ body
         order: -1;
         flex-direction: row;
         margin-top: 0;
+        padding: 0;
     }
     .syte
     {
