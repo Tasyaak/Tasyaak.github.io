@@ -1,0 +1,81 @@
+.img
+{
+    background-color: #ccc;
+    width: 120px;
+    height: 120px;
+}
+#nav
+{
+    background-color: #ccc;
+    padding: 1vw;
+}
+#nav > div
+{
+    background-color: #ddd;
+    width: fit-content;
+}
+.syte
+{
+    height: 120px;
+    background-color: #ccc; 
+}
+.blok
+{
+    background-color: #e5e5e5;
+}
+#table, #table td
+{
+    border: 2px #474747 solid
+}
+#table td
+{
+    padding: 11px;
+}
+#table thead tr
+{
+    background-color: #d5d5d5! important;
+}
+#table tr:nth-child(even)
+{
+    background-color: #c5c5c5
+}
+#table tr:nth-child(odd)
+{
+    background-color: #e6e6e6;
+}
+.blok > form
+{
+    background-color: #f6f6f6;
+    max-width: 500px;
+}
+footer
+{
+    background-color: #ccc;
+    height: 15vw;
+    max-height: 150px;
+}
+footer > div > div
+{
+    margin-left: 10vw;
+}
+
+
+@media (min-width:768px)
+{
+    .content
+    {
+        max-width: 960px;
+    }
+    header
+    {
+        background-color: #ccc;
+    }
+    #nav > div
+    {
+        background-color: #ddd;
+    }
+    .syte
+    {
+        height: 100%;
+    }
+}
