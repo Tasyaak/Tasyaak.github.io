@@ -54,7 +54,7 @@ footer
     height: 15vw;
     max-height: 150px;
 }
-footer > div > div
+.foot
 {
     margin-left: 10vw;
 }
@@ -62,10 +62,6 @@ footer > div > div
 
 @media (min-width:768px)
 {
-    .content
-    {
-        max-width: 960px;
-    }
     header
     {
         background-color: #ccc;

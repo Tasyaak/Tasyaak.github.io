@@ -10,7 +10,7 @@
 
 <body>
 <header class="w-100">
-    <div class="content m-md-auto d-md-flex">
+    <div class="m-md-auto d-md-flex">
         <div class="img float-start p-2">
             <img class="h-100" src="image2.png" alt="Буква Ю" title="Логотип">
         </div>
@@ -25,9 +25,9 @@
     </div>
 </header>
 
-<div class="content m-md-auto w-100 d-md-flex flex-md-column">
-    <div class="blok p-2 my-2 mx-0 text-center overflow-x-auto">
-        <table id="table" class="my-1 m-auto">
+<div class="container m-md-auto w-100 d-md-flex flex-md-column">
+    <div class="blok row p-2 my-2 mx-0 text-center overflow-x-auto">
+        <table id="table" class="my-1 m-auto col-auto">
             <thead>
                 <tr>
                     <td> Кол-ка 1 </td>
@@ -93,15 +93,17 @@
         </table>
     </div>
 
-    <div class="blok p-2 my-2 mx-0 text-center order-md-first">
-        <div class="my-2 mx-0"> <a href="" title="Пустышки"> 1-я ссылка </a> </div>
-        <div class="my-2 mx-0"> <a href="" title="Пустышки"> 2-я ссылка </a> </div>
-        <div class="my-2 mx-0"> <a href="" title="Пустышки"> 3-я ссылка </a> </div>
-        <div class="my-2 mx-0"> <a href="" title="Пустышки"> 4-я ссылка </a> </div>
+    <div class="row text-center order-md-first p-2 my-2 mx-0">
+        <div class="blok col-12">
+            <div class="my-2 mx-0"> <a href="" title="Пустышки"> 1-я ссылка </a> </div>
+            <div class="my-2 mx-0"> <a href="" title="Пустышки"> 2-я ссылка </a> </div>
+            <div class="my-2 mx-0"> <a href="" title="Пустышки"> 3-я ссылка </a> </div>
+            <div class="my-2 mx-0"> <a href="" title="Пустышки"> 4-я ссылка </a> </div>
+        </div>
     </div>
-    
-    <div class="blok p-2 my-2 mx-0 text-center">
-        <form class="w-100 m-auto my-1 py-1 px-0">
+
+    <div class="blok row p-2 my-2 mx-0 text-center">
+        <form class="w-100 col-auto m-auto my-1 py-1 px-0">
             <div class="my-2 mx-0"> <input type="text" name="Fio" placeholder="ФИО"> </div>
             <div class="my-2 mx-0"> <input type="tel" name="Phone" placeholder="Телефон"> </div>
             <div class="my-2 mx-0"> <input type="email" name="Email" placeholder="Адрес электронной почты"> </div>
@@ -112,8 +114,10 @@
 </div>
 
 <footer class="w-100">
-    <div class="content m-md-auto">
-        <div> (௹) Кан Олег </div>
+    <div class="container">
+        <div class="row m-md-auto">
+            <div class="foot col"> (௹) Кан Олег </div>
+        </div>
     </div>
 </footer>
 </body>
