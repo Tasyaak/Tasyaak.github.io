@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title> Index 5 </title>
+    <style>
+        body
+        {
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div
+        {
+            margin: 15px 0;
+            text-align: center;
+        }
+        div > *
+        {
+            width: 140px;
+            height: 30px;
+        }
+        form
+        {
+            width: 200px;
+            background-color: #cb9898;
+        }
+    </style>
+</head>
+    
+<body>
+    <form id="for">
+        <div> <input id="kol" type="text" placeholder="Количество товаров"> </div>
+        <div>
+            <select id="towar"> 
+                <option value="Samsung" data-price="2000"> Samsung - 2000 </option>
+                <option value="Huawei" data-price="1000"> Huawei - 1000 </option>
+                <option value="iPhone" data-price="2500"> iPhone - 2500 </option>
+                <option value="Poco" data-price="1440"> Poco - 1440 </option>
+                <option value="Redmi" data-price="1200"> Redmi - 1200 </option>
+            </select>
+        </div>
+        <div> <button id="po" type="submit"> Подсчитать </button> </div>
+        <div id="Wiwod"> </div>
+    </form>
+    
+    <script src="javas5.js" defer> </script>
+</body>
+</html>
