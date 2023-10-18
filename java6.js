@@ -22,7 +22,7 @@ window.onload = function () {
                 s = k * rad1.getAttribute("data-price");
                 break;
             case 2:
-                selel = select.options[select.selectIndex];
+                selel = select.options[select.selectedIndex];
                 s = k * selel.getAttribute("data-price");
                 break;
             case 3:
