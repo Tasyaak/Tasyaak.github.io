@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title> Index 6 </title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+
+<body>
+    <form id="for">
+        <div class="kol"> <input id="kol" type="text" placeholder="Количество товаров"> </div>
+        
+        <div>
+            <div>
+                <label>
+                    <input type="radio" name="rad" id="rad1" data-price="85000"> Samsung Galaxy — 85000
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="rad" id="rad2"> Шариковая ручка
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="rad" id="rad3" data-price="60000"> Планшет — 60000
+                </label>
+            </div>
+        </div>
+
+        <div id="sel" class="sel hide">
+            <select id="towar" name="towar" title="Цвет ручки">
+                <option value="black" data-price="200"> Чёрная — 200 </option>
+                <option value="blue" data-price="100"> Синяя — 100 </option>
+                <option value="red" data-price="250"> Красная — 250 </option>
+            </select>
+        </div>
+
+        <div id="boxes" class="ch hide">
+            <div>
+                <label>
+                    <input type="checkbox" name="chec" id="ch1" data-price="1500"> с SIM-картой — +1500
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="chec" id="ch2" data-price="5000"> Со стилусом — +5000
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="chec" id="ch3" data-price="8000"> Экран 120 Гц — +8000
+                </label>
+            </div>
+        </div>
+
+        <div id="wiwod"> 0 </div>
+    </form>
+    
+    <script src="java6.js" defer> </script>
+</body>
+</html>
