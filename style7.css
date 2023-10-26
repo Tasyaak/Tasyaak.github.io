@@ -30,15 +30,15 @@ h1
 .slick-slide img
 {
     margin: 0 auto;
-    width: 375px;
-    height: 375px;
+    width: 25vw;
+    height: 25vw;
 }
-@media screen and (orientation: landscape)
+@media screen and (orientation: portrait)
 {
     .slick-slide img
     {
         margin: 0 auto;
-        width: 25vw;
-        height: 25vw;
+        width: 375px;
+        height: 375px;
     }
 }
