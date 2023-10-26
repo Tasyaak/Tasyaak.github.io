@@ -1,0 +1,48 @@
+/* *
+{
+    box-sizing: border-box;
+} */
+body
+{
+    margin: 0;
+    padding: 0;
+}
+h1
+{
+    text-align: center;
+}
+#images
+{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.slick-prev:before,
+.slick-next:before
+{
+    color: black;
+    font-size: 20px;
+}
+.slick-dots
+{
+    bottom: -40px;
+}
+.slick-dots li
+{
+    margin: 0 5px;
+}
+.slick-slide img
+{
+    margin: 0 auto;
+    width: 375px;
+    height: 375px;
+}
+@media screen and (orientation: landscape)
+{
+    .slick-slide img
+    {
+        margin: 0 auto;
+        width: 25vw;
+        height: 25vw;
+    }
+}
