@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slapform@latest/dist/index.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title> Index 8 </title>
+    <style>
+        input:not([type="checkbox"]), textarea
+        {
+            width: 100%;
+        }
+        .clsbt
+        {
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <button type="button" class="btn btn-primary clsbt" data-toggle="modal" data-target="#exform"> Показать форму </button>
+    
+    <div class="modal" id="exform" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title"> Форма </h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form method="POST" id="forma" action="https://api.slapform.com/qJp4N7SKz">
+                        <div id="infor"> </div>
+                        <div> <input type="text" name="fio" id="fio" placeholder="ФИО"> </div>
+                        <div> <input type="email" name="email" id="email" placeholder="Email" > </div>
+                        <div> <input type="tel" name="tel" id="tel" placeholder="Телефон"> </div>
+                        <div> <input type="text" name="organ" id="organ" placeholder="Организация"> </div>
+                        <div> <textarea name="soob" id="soob"></textarea> </div>
+                        <div> <input type="checkbox" name="polit" id="polit"> С политикой обработки данных согласен </div>
+                        <div> <button type="submit"> Отправить </button> </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="javas8.js"></script>
+</body>
+</html>
