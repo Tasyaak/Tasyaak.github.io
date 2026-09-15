@@ -31,7 +31,7 @@
             <div class="hero-actions"><a class="button dark" href="#technology">Explore the technology <span
                         aria-hidden="true">↓</span></a><span class="micro">Product concept · Prototype
                     development</span></div>
-            <figure class="system"><img src="assets/system.jpg" width="1448" height="1086"
+            <figure class="system"><img src="assets/system.png" width="1448" height="1086"
                     alt="Concept illustration of a trainee wearing a VR headset and holding a mock welding torch with an electromagnetic coil above a magnetic workpiece"
                     fetchpriority="high">
                 <div class="image-tag"><span class="tiny">ENDLESS SEAM 8 / SYSTEM CONCEPT</span><strong>Handheld
@@ -49,8 +49,8 @@
             </article>
             <article><span class="index">02 / LASER-FREE TRAINING</span>
                 <h2>Practice positioning <br>Without a live beam</h2>
-                <p>The VR exercise uses no class-4 laser radiation. Trainees can focus on torch angle, working distance
-                    and travel speed</p>
+                The VR exercise uses no class-4 laser radiation. Trainees can focus on torch angle, working distance and
+                travel speed
             </article>
             <article><span class="index">03 / IMMEDIATE FEEDBACK</span>
                 <h2>Locate an error <br>Adjust the next pass</h2>
@@ -175,7 +175,7 @@
         <section class="voices wrap">
             <div class="section-heading">
                 <p class="eyebrow">TRAINING EXPERIENCE</p>
-                <h2>What trainees and instructors<br>could use it for</h2>
+                <h2>What trainees and instructors could use it for</h2>
                 Illustrative testimonials: all quotes and personas below are fictional. They describe intended use, not
                 trial results
             </div>
@@ -235,13 +235,20 @@
                 aria-label="Close contact form">×</button>
         </div>
         <p class="form-note">Demo form. No data is sent or saved</p>
-        <form id="contact-form"><label for="contact-email">Email</label><input id="contact-email" type="email"
-                autocomplete="off" placeholder="you@example.com"><label for="contact-phone">Phone number</label><input
-                id="contact-phone" type="tel" autocomplete="off" placeholder="+1 555 000 0000"><label
-                for="contact-question">Question text</label><textarea id="contact-question" rows="3"
-                placeholder="What would you like to ask?"></textarea><button type="submit"
-                class="button dark">Submit</button></form>
-        <p id="contact-status" class="contact-status" role="status" aria-live="polite"></p>
+
+        <form id="contact-form">
+            <label for="contact-email">Email</label>
+            <input id="contact-email" type="email" autocomplete="off" placeholder="you@example.com">
+            <label for="contact-phone">Phone number</label>
+            <input id="contact-phone" type="tel" autocomplete="off" placeholder="+1 555 000 0000">
+            <label for="contact-question">Question text</label>
+            <textarea id="contact-question" rows="3" placeholder="What would you like to ask?">
+            </textarea><button type="submit" class="button dark">Submit</button>
+        </form>
+
+        <div id="contact-status" class="contact-status" role="status" aria-live="polite">
+            <span class="contact-status__message"></span>
+        </div>
     </section>
 </body>
 
