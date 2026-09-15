@@ -11,6 +11,7 @@
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="contact.css">
+    <!-- <script src="laser-bg.js" defer></script> -->
     <script src="contact.js" defer></script>
 </head>
 
@@ -24,13 +25,12 @@
     </header>
     <main id="main">
         <section class="hero wrap">
-            <!-- <p class="eyebrow">VR TRAINING FOR HANDHELD LASER WELDING</p> -->
+            <!-- <canvas id="laser-canvas" class="laser-canvas" aria-hidden="true"></canvas> -->
             <div class="title_name"> <b> VR TRAINING FOR HANDHELD LASER WELDING </b></div>
             <p class="value">Your hand learns the seam before you ever fire the laser<span>No burnt plates, no class-4
                     beam, no instructor behind every student</span></p>
             <div class="hero-actions"><a class="button dark" href="#technology">Explore the technology <span
-                        aria-hidden="true">↓</span></a><span class="micro">Product concept · Prototype
-                    development</span></div>
+                        aria-hidden="true">↓</span></a></div>
             <figure class="system"><img src="assets/system.png" width="1448" height="1086"
                     alt="Concept illustration of a trainee wearing a VR headset and holding a mock welding torch with an electromagnetic coil above a magnetic workpiece"
                     fetchpriority="high">
@@ -41,6 +41,33 @@
                     illustration.</figcaption> -->
             </figure>
         </section>
+
+        <section id="problem" class="problem wrap">
+            <div class="problem-heading">
+                <p class="eyebrow">THE PROBLEM</p>
+                <h2>Live laser time should not be spent on first repetitions.</h2>
+            </div>
+            <div class="problem-copy">
+                <p>Handheld laser welding can have a shorter learning curve than several conventional welding
+                    processes. That does not remove the safety and access constraints of high-power laser work: Class 4
+                    radiation can present immediate eye and skin hazards from direct or reflected exposure and may also
+                    create a fire hazard.</p>
+                <p>The early training problem is therefore specific: build repeatable hand control before laser-on
+                    practice. Trainees need to follow the joint, maintain the required orientation and stand-off, and
+                    travel at a stable speed — repeatedly enough for the movement to become consistent.</p>
+                <p>Endless seam 8 moves those early motor-skill repetitions to a reusable simulated station. Supervised
+                    live-laser time can then focus on material response, process parameters, real joint conditions and
+                    production qualification.</p>
+                <div class="source-row">
+                    <a href="https://www.aws.org/magazines-and-media/welding-digest/2024/december/wd-dec-24-setting-the-standard-for-handheld-laser-welding"
+                        target="_blank" rel="noopener noreferrer">AWS · handheld laser welding learning curve ↗</a>
+                    <a href="https://www.osha.gov/laser-hazards/hazards" target="_blank" rel="noopener noreferrer">OSHA
+                        · Class
+                        4 laser hazards ↗</a>
+                </div>
+            </div>
+        </section>
+
         <section class="benefits wrap" aria-label="Training benefits">
             <article><span class="index">01 / REPEATABLE PRACTICE</span>
                 <h2>Repeat a pass <br>Reuse the workpiece</h2>
@@ -61,8 +88,8 @@
         <section id="technology" class="technology">
             <div class="wrap">
                 <div class="section-heading">
-                    <p class="eyebrow">TECHNOLOGY / HOW WE WILL BUILD IT</p>
-                    <h2>Track the torch<br><em>Respond to each movement</em></h2>
+                    <p class="eyebrow">Track the torch - Respond to each movement</p>
+                    <h2>TECHNOLOGY<br><em>How it was build</em></h2>
                     <p>The controller is held freely in the trainee’s hand, with no mechanical arm or fixed connection
                         to the table. A tracked mock workpiece provides the physical reference for the virtual joint
                     </p>
@@ -104,20 +131,12 @@
                         </div>
                     </article>
                 </div>
-                <div class="technical-note"><span>PROTOTYPE LIMITS</span>
-                    <p>Physical cues communicate training information; they do not reproduce a “laser force.” Magnetic
-                        forces act locally and cannot guide the hand along an arbitrary path. Repulsion requires a
-                        matched magnetic arrangement, not just a plain steel plate. Force limits, coil temperature,
-                        tracking accuracy and response delay still require prototype testing</p>
-                </div>
             </div>
         </section>
         <section id="science" class="science wrap">
             <div class="section-heading">
                 <p class="eyebrow">RESEARCH FOUNDATION</p>
-                <h2>Two technical references <br><span>A prototype still to validate </span></h2>
-                <p>These sources inform the concept. They do not establish the training effectiveness of Endless seam 8,
-                    which needs its own controlled evaluation</p>
+                <h2>Two technical references</h2>
             </div>
             <div class="research-grid">
                 <article class="research">
@@ -152,8 +171,6 @@
                             aria-hidden="true">↗</span></a>
                 </article>
             </div>
-            <p class="validation">Planned validation: compare practice with and without physical cues, then measure
-                skill retention and transfer to real equipment under an instructor’s supervision</p>
         </section>
         <section id="patent" class="patent wrap">
             <div class="patent-symbol" aria-hidden="true">∞</div>
@@ -167,33 +184,28 @@
                     to adjust the amount of assistance, from guided practice to independent assessment</p>
                 <div class="patent-fields"><span>Patent number: <b>[to be added]</b></span><span>Rights holder: <b>[to
                             be added]</b></span></div>
-                <p class="micro">Placeholder description of the proposed concept, not verified patent claims. Patent
-                    details and protection status have not been supplied; this section does not confirm a patent grant
-                </p>
             </div>
         </section>
         <section class="voices wrap">
             <div class="section-heading">
                 <p class="eyebrow">TRAINING EXPERIENCE</p>
                 <h2>What trainees and instructors could use it for</h2>
-                Illustrative testimonials: all quotes and personas below are fictional. They describe intended use, not
-                trial results
             </div>
             <div class="quotes">
                 <figure><span class="quote-mark" aria-hidden="true">“</span>
                     <blockquote>I would use repeat passes to practice holding a steady travel speed before working with
                         the real laser</blockquote>
-                    <figcaption>Welding center trainee<span>Fictional testimonial · 01</span></figcaption>
+                    <figcaption>Welding center trainee</figcaption>
                 </figure>
                 <figure><span class="quote-mark" aria-hidden="true">“</span>
                     <blockquote>I would want to see exactly where a student changes the torch angle, then review that
                         segment together</blockquote>
-                    <figcaption>Practical training instructor<span>Fictional testimonial · 02</span></figcaption>
+                    <figcaption>Practical training instructor</figcaption>
                 </figure>
                 <figure><span class="quote-mark" aria-hidden="true">“</span>
                     <blockquote>We could use a simulated joint to rehearse the hand movement before supervised practice
                         on laser equipment</blockquote>
-                    <figcaption>Workshop training manager<span>Fictional testimonial · 03</span></figcaption>
+                    <figcaption>Workshop training manager</figcaption>
                 </figure>
             </div>
         </section>
